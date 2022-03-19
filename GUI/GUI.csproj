@@ -54,10 +54,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App.xaml">
+    <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Content>
+    </ApplicationDefinition>
     <Compile Include="Command\ChangeViewCommand.cs" />
     <Compile Include="Command\TitleBarCommand.cs" />
     <Compile Include="Views\Components\DestinationControl.xaml.cs">

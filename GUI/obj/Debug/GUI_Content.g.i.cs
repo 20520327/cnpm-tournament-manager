@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("app.xaml")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/icon-close.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/icon-minimize.png")]
 

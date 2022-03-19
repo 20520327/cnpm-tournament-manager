@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\admin\cnpm-tournament-manager\GUI\obj\Debug\
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\
 GUI
 none
 false
 DEBUG;TRACE
-
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\App.xaml
 10770106936
-31657542908
+21289480792
 15-1139894397
-11392098038
+11-582507270
 StyleResource.xaml;Views\Components\DestinationControl.xaml;Views\Components\TourControl.xaml;Views\MainWindow\MainWindow.xaml;Views\Pages\PageAddingDestination.xaml;Views\Pages\PageAddingHotel.xaml;Views\Pages\PageAddingI.xaml;Views\Pages\PageAddingTour.xaml;Views\Pages\PageAddingTourGroup.xaml;Views\Pages\PageTour.xaml;
 
 True

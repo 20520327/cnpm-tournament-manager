@@ -93,3 +93,44 @@ C:\Users\admin\cnpm-tournament-manager\GUI\obj\Debug\GUI.pdb
 C:\Users\admin\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageTour.g.cs
 C:\Users\admin\cnpm-tournament-manager\GUI\obj\Debug\Views\Components\TourControl.g.cs
 C:\Users\admin\cnpm-tournament-manager\GUI\obj\Debug\GUI_Content.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\StyleResource.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Components\DestinationControl.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Components\TourControl.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\MainWindow\MainWindow.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingDestination.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingHotel.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingI.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingTour.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingTourGroup.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageTour.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI_Content.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.exe
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\Assets\Icons\icon-close.png
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\Assets\Icons\icon-minimize.png
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\GUI.exe.config
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\GUI.exe
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\GUI.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\App.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\App.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Components\DestinationControl.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Components\TourControl.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\MainWindow\MainWindow.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingDestination.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingHotel.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingI.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingTour.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageAddingTourGroup.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\Views\Pages\PageTour.baml
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.g.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\cnpm-tournament-manager\GUI\obj\Debug\GUI.csproj.CopyComplete
