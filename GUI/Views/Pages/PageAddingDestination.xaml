@@ -22,7 +22,7 @@
         <Border 
                   Grid.Column="0"
                   Background="#80ECDABF" 
-                  CornerRadius="30" 
+                  CornerRadius="35" 
                   BorderThickness="1" 
                   BorderBrush="#80ECDABF"
                   Width="650"
@@ -46,7 +46,7 @@
                 <Border 
                               CornerRadius="10" 
                               BorderThickness="4" 
-                              BorderBrush="white">
+                              BorderBrush="White">
                     <ComboBox
                                     x:Name="CbProvinceList"
                                     BorderThickness="0"
@@ -107,7 +107,7 @@
                 <Border 
                               CornerRadius="10" 
                               BorderThickness="4" 
-                              BorderBrush="white"
+                              BorderBrush="White"
                               HorizontalAlignment="Left">
                     <TextBox
                                     x:Name="TbName"

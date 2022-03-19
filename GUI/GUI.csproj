@@ -54,12 +54,18 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
+    <Content Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </ApplicationDefinition>
+    </Content>
     <Compile Include="Command\ChangeViewCommand.cs" />
     <Compile Include="Command\TitleBarCommand.cs" />
+    <Compile Include="Views\Components\DestinationControl.xaml.cs">
+      <DependentUpon>DestinationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\TourControl.xaml.cs">
+      <DependentUpon>TourControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainWindow\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -82,7 +88,18 @@
     <Compile Include="Views\Pages\PageAddingTourGroup.xaml.cs">
       <DependentUpon>PageAddingTourGroup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\PageTour.xaml.cs">
+      <DependentUpon>PageTour.xaml</DependentUpon>
+    </Compile>
     <Page Include="StyleResource.xaml" />
+    <Page Include="Views\Components\DestinationControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\TourControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow\MainWindow.xaml" />
     <Page Include="Views\Pages\PageAddingDestination.xaml" />
     <Page Include="Views\Pages\PageAddingHotel.xaml">
@@ -95,6 +112,10 @@
     </Page>
     <Page Include="Views\Pages\PageAddingTour.xaml" />
     <Page Include="Views\Pages\PageAddingTourGroup.xaml" />
+    <Page Include="Views\Pages\PageTour.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -115,12 +136,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Icons\icon-close.png">
+    <Content Include="Assets\Icons\icon-close.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\Icons\icon-minimize.png">
+    </Content>
+    <Content Include="Assets\Icons\icon-minimize.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -129,7 +150,9 @@
   <ItemGroup>
     <Resource Include="Assets\image\clipart2575067 %281%29.png" />
     <Resource Include="Assets\image\img-add-icon.png" />
-    <Resource Include="Assets\image\img-air-plane.png" />
+    <Resource Include="Assets\image\img-air-plane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\image\img-bag.png" />
     <Resource Include="Assets\image\img-bigbang-clock.png" />
     <Resource Include="Assets\image\img-bridge.png" />

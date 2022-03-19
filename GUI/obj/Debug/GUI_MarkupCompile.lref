@@ -1,9 +1,12 @@
 ﻿
-FC:\Users\Admin\Downloads\test_2\test\GUI\App.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\MainWindow\MainWindow.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\Pages\PageAddingDestination.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\Pages\PageAddingHotel.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\Pages\PageAddingI.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\Pages\PageAddingTour.xaml;;
-FC:\Users\Admin\Downloads\test_2\test\GUI\Views\Pages\PageAddingTourGroup.xaml;;
+
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Components\TourControl.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\MainWindow\MainWindow.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageAddingDestination.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageAddingHotel.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageAddingI.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageAddingTour.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageAddingTourGroup.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Pages\PageTour.xaml;;
+FC:\Users\admin\cnpm-tournament-manager\GUI\Views\Components\DestinationControl.xaml;;
 
