@@ -25,14 +25,14 @@ namespace GUI.Views.Pages
         public PageAddingI()
         {
             InitializeComponent();
-            LbTour.Style = Resources["NavItemClickedStyle"] as Style;
+            LbTour.Style = Application.Current.Resources["NavItemClickedStyle"] as Style;
             FrAddingContainer.Content = new PageAddingTour();
         }
 
         private void LbTour_MouseDown(object sender, MouseButtonEventArgs e)
         {
             ResetNavItemsToDefault();
-            LbTour.Style = Resources["NavItemClickedStyle"] as Style;
+            LbTour.Style = Application.Current.Resources["NavItemClickedStyle"] as Style;
             FrAddingContainer.Content = new PageAddingTour();
         }
 

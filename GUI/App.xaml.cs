@@ -11,7 +11,7 @@ namespace GUI
 
         public void AppStart(object sender, StartupEventArgs e)
         {
-            //goi ưindơ ra
+            //Call Mainwindow
             MainWindow = new MainWindow();
             MainWindow.Show();
         }
