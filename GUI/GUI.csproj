@@ -60,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="Command\ChangeViewCommand.cs" />
     <Compile Include="Command\TitleBarCommand.cs" />
+<<<<<<< HEAD
     <Compile Include="Views\Components\CommentComponent.xaml.cs">
       <DependentUpon>CommentComponent.xaml</DependentUpon>
     </Compile>
@@ -94,6 +95,14 @@
     <Compile Include="Views\Components\TourRating.xaml.cs">
       <DependentUpon>TourRating.xaml</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Views\Components\DestinationControl.xaml.cs">
+      <DependentUpon>DestinationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\TourControl.xaml.cs">
+      <DependentUpon>TourControl.xaml</DependentUpon>
+    </Compile>
+>>>>>>> 115553f1b601d8463299ea55aea18d70d19e3f1f
     <Compile Include="Views\MainWindow\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -116,6 +125,7 @@
     <Compile Include="Views\Pages\PageAddingTourGroup.xaml.cs">
       <DependentUpon>PageAddingTourGroup.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Views\Pages\PageConfirm.xaml.cs">
       <DependentUpon>PageConfirm.xaml</DependentUpon>
     </Compile>
@@ -154,10 +164,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+    <Compile Include="Views\Pages\PageTour.xaml.cs">
+      <DependentUpon>PageTour.xaml</DependentUpon>
+    </Compile>
+    <Page Include="StyleResource.xaml" />
+>>>>>>> 115553f1b601d8463299ea55aea18d70d19e3f1f
     <Page Include="Views\Components\DestinationControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Views\Components\PlanButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -166,10 +183,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 115553f1b601d8463299ea55aea18d70d19e3f1f
     <Page Include="Views\Components\TourControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="Views\Pages\PageStatistic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -222,6 +242,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 115553f1b601d8463299ea55aea18d70d19e3f1f
     <Page Include="Views\MainWindow\MainWindow.xaml" />
     <Page Include="Views\Pages\PageAddingDestination.xaml" />
     <Page Include="Views\Pages\PageAddingHotel.xaml">
@@ -234,10 +256,13 @@
     </Page>
     <Page Include="Views\Pages\PageAddingTour.xaml" />
     <Page Include="Views\Pages\PageAddingTourGroup.xaml" />
+<<<<<<< HEAD
     <Page Include="Views\Pages\PageConfirm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 115553f1b601d8463299ea55aea18d70d19e3f1f
     <Page Include="Views\Pages\PageTour.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
