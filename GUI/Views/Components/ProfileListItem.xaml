@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="GUI.Views.Components.ProfileListItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.Views.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="77"
+             d:DesignWidth="519"
+             Height="77"
+             Width="519"
+             Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Image Tour-->
+        <Ellipse
+            Name="ImageTour"
+            Grid.Column="0"
+            Height="60"
+            Width="60">
+            <Ellipse.Fill>
+                <ImageBrush
+                    ImageSource="../../Assets/image/img-paris.jpg"
+                    Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        
+        <!--Name Tour & Name Tour Group & Date Start - Date End-->
+        <StackPanel
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left">
+            
+            <!--Name Tour Label-->
+            <Label
+                Name="LbNameTour"
+                Content="Name Tour"
+                FontFamily="Mulish"
+                FontSize="14"
+                FontWeight="SemiBold"
+                Foreground="#252733">
+            </Label>
+            
+            <!--Name Tour Group Label-->
+            <Label
+                Name="LbNameTourGroup"
+                Content="Name Tour Group"
+                FontFamily="Mulish"
+                FontSize="14"
+                FontWeight="SemiBold"
+                Foreground="#252733">
+            </Label>
+
+            <Label
+                Name="LbTourGroupId"
+                Content="Name Tour Group"
+                FontFamily="Mulish"
+                FontSize="14"
+                FontWeight="SemiBold"
+                Foreground="#252733"
+                Visibility="Collapsed">
+            </Label>
+            
+            <!--Date Start = Date End-->
+            <Label
+                Name="LbDateStartEnd"
+                Content="21/02/2002 - 23/02/2002"
+                FontFamily="Mulish"
+                FontSize="12"
+                FontWeight="Regular"
+                Foreground="#C5C7CD">
+            </Label>
+        </StackPanel>
+        
+        <!--Status & Price-->
+        <StackPanel
+            Grid.Column="2"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            
+            <!--Status Label-->
+            <Label
+                Name="LbStatus"
+                Content="• planning"
+                FontFamily="Poppins"
+                FontSize="10"
+                FontWeight="Bold"
+                FontStyle="Italic"
+                Foreground="#66B464">
+            </Label>
+            
+            <!--Price Label-->
+            <Label
+                Name="LbPrice"
+                Content="1.000.000 vnd"
+                FontFamily="Mulish"
+                FontSize="12"
+                FontWeight="Regular"
+                Foreground="#C5C7CD">
+            </Label>
+        </StackPanel>
+    </Grid>
+</UserControl>

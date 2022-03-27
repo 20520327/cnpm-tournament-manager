@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="GUI.Views.Components.DestinationChooseItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.Views.Components"
+             mc:Ignorable="d" 
+             Width="100"
+             Height="140"
+             Background="Transparent"
+             Margin="0,0,20,20">
+    <Border
+        Background="White"
+        CornerRadius="10"
+        BorderThickness="0.3"
+        BorderBrush="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "4*" />
+                <RowDefinition Height = "2*" />
+                <RowDefinition Height = "2*" />
+            </Grid.RowDefinitions>
+
+            <!--Destination's Image-->
+            <Border CornerRadius="10" Name="BorderImg">
+                <Border.Background>
+                    <ImageBrush
+                           ImageSource="../../Assets/image/img-paris.jpg"
+                           Stretch="UniformToFill"/>
+                </Border.Background>
+            </Border>
+
+            <!--Destination's Name-->
+            <Label
+                  Grid.Row="1"
+                  FontFamily="Poppins"
+                  FontSize="10"
+                  Foreground="Black"
+                  VerticalAlignment="Center"
+                  HorizontalAlignment="Center" Grid.ColumnSpan="2" Margin="3,0.2">
+                <TextBlock
+                    Name="TbDestinationName"
+                    Text="Ba Na Hills Ba Na Hills Ba Na Hills Ba Na Hills Ba Na Hills"
+                    TextWrapping="WrapWithOverflow"
+                    TextTrimming="CharacterEllipsis" />
+            </Label>
+
+            <!--DAY-->
+            <Label
+                 Grid.Row="2"
+                 Name="LbDay"
+                 Content="Day 1"
+                 FontFamily="Poppins"
+                 FontSize="20"
+                 FontWeight="Bold"
+                 Foreground="Black"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center">
+            </Label>
+        </Grid>
+    </Border>
+</UserControl>

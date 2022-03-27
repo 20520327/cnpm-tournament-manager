@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=2.0.4.3, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.0.4\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.3.0.3, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.3.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Command\ChangeViewCommand.cs" />
+    <Compile Include="Command\TitleBarCommand.cs" />
+    <Compile Include="Views\Components\CommentComponent.xaml.cs">
+      <DependentUpon>CommentComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\ConfirmControl.xaml.cs">
+      <DependentUpon>ConfirmControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\CustomerItem.xaml.cs">
+      <DependentUpon>CustomerItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\DestinationChooseItem.xaml.cs">
+      <DependentUpon>DestinationChooseItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\DestinationControl.xaml.cs">
+      <DependentUpon>DestinationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\PlanButton.xaml.cs">
+      <DependentUpon>PlanButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\ProfileListItem.xaml.cs">
+      <DependentUpon>ProfileListItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\TourControl.xaml.cs">
+      <DependentUpon>TourControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\TourGuideItem.xaml.cs">
+      <DependentUpon>TourGuideItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\TourismItem.xaml.cs">
+      <DependentUpon>TourismItem.xaml</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Views\Components\TourRating.xaml.cs">
+      <DependentUpon>TourRating.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageAddingDestination.xaml.cs">
+      <DependentUpon>PageAddingDestination.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Pages\PageAddingHotel.xaml.cs">
+      <DependentUpon>PageAddingHotel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageAddingI.xaml.cs">
+      <DependentUpon>PageAddingI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageAddingTour.xaml.cs">
+      <DependentUpon>PageAddingTour.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageAddingTourGroup.xaml.cs">
+      <DependentUpon>PageAddingTourGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageConfirm.xaml.cs">
+      <DependentUpon>PageConfirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageStatistic.xaml.cs">
+      <DependentUpon>PageStatistic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageTour.xaml.cs">
+      <DependentUpon>PageTour.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageTourDetail_Info.xaml.cs">
+      <DependentUpon>PageTourDetail_Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageTourDetail_Plan.xaml.cs">
+      <DependentUpon>PageTourDetail_Plan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageTourDetail_Rating.xaml.cs">
+      <DependentUpon>PageTourDetail_Rating.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PageTour_GroupTourList.xaml.cs">
+      <DependentUpon>PageTour_GroupTourList.xaml</DependentUpon>
+    </Compile>
+    <Page Include="StyleResource.xaml" />
+    <Page Include="Views\Components\CommentComponent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\ConfirmControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\CustomerItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\DestinationChooseItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\DestinationControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\PlanButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\ProfileListItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\TourControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageStatistic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageTourDetail_Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageTourDetail_Plan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageTourDetail_Rating.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageTour_GroupTourList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Resource Include="Assets\Icons\goldstar_empty.png" />
+    <Resource Include="Assets\Icons\cameraicon.png" />
+    <Resource Include="Assets\Icons\arrow-left.png" />
+    <Resource Include="Assets\Icons\goldstar_full.png" />
+    <Resource Include="Assets\Icons\goldstar_half.png" />
+    <Resource Include="Assets\Icons\icon_edit.png" />
+    <Resource Include="Assets\Icons\icon-arrow-left-black.png" />
+    <Resource Include="Assets\Icons\icon-clear.png" />
+    <Resource Include="Assets\Icons\icon-check.png" />
+    <Resource Include="Assets\Icons\icon-delete.png" />
+    <Resource Include="Assets\Icons\icon-globe.png" />
+    <Resource Include="Assets\Icons\icon-money.png" />
+    <Resource Include="Assets\Icons\icon-price.png" />
+    <Resource Include="Assets\Icons\icon-search.png" />
+    <Resource Include="Assets\Icons\icon-time.png" />
+    <Resource Include="Assets\Icons\icon-travel.png" />
+    <Resource Include="Assets\Icons\renvenueicon.png" />
+    <Resource Include="Assets\Icons\tourgroupicon.png" />
+    <Resource Include="Assets\Icons\tourguideicon.png" />
+    <Content Include="Views\Components\TourismItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Page Include="Views\Components\TourGuideItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\TourRating.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow\MainWindow.xaml" />
+    <Page Include="Views\Pages\PageAddingDestination.xaml" />
+    <Page Include="Views\Pages\PageAddingHotel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageAddingI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageAddingTour.xaml" />
+    <Page Include="Views\Pages\PageAddingTourGroup.xaml" />
+    <Page Include="Views\Pages\PageConfirm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PageTour.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Icons\icon-close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\icon-minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Presenters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\image\clipart2575067 %281%29.png" />
+    <Resource Include="Assets\image\img-add-icon.png" />
+    <Resource Include="Assets\image\img-air-plane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\image\img-bag.png" />
+    <Resource Include="Assets\image\img-bigbang-clock.png" />
+    <Resource Include="Assets\image\img-bridge.png" />
+    <Resource Include="Assets\image\img-building.png" />
+    <Resource Include="Assets\image\img-camera-vintage.png" />
+    <Resource Include="Assets\image\img-church.png" />
+    <Resource Include="Assets\image\img-coffee-cup.png" />
+    <Resource Include="Assets\image\img-computer.png" />
+    <Resource Include="Assets\image\img-destination-info.jpg" />
+    <Resource Include="Assets\image\img-ferris-wheel.png" />
+    <Resource Include="Assets\image\img-glasses.png" />
+    <Resource Include="Assets\image\img-globe.png" />
+    <Resource Include="Assets\image\img-hotel-building.png" />
+    <Resource Include="Assets\image\img-login-window.png" />
+    <Resource Include="Assets\image\img-london-sticker.png" />
+    <Resource Include="Assets\image\img-mailed.png" />
+    <Resource Include="Assets\image\img-mexico-city-sticker.png" />
+    <Resource Include="Assets\image\img-ny-sticker.png" />
+    <Resource Include="Assets\image\img-paris.jpg" />
+    <Resource Include="Assets\image\img-passport.png" />
+    <Resource Include="Assets\image\img-street-food-car.png" />
+    <Resource Include="Assets\image\img-street-light.png" />
+    <Resource Include="Assets\image\img-taxi.png" />
+    <Resource Include="Assets\image\img-tour-guide.png" />
+    <Resource Include="Assets\image\img-tourism.png" />
+    <Resource Include="Assets\image\img-train-green.png" />
+    <Resource Include="Assets\image\img-umbrella.png" />
+    <Resource Include="Assets\image\img-vali.png" />
+    <Resource Include="Assets\image\img-vector-route-icon.png" />
+    <Resource Include="Assets\image\img-world-travel.png" />
+    <Resource Include="Assets\image\loading.jpg" />
+    <Resource Include="Assets\image\loading2.png" />
+    <Resource Include="Assets\image\pngaaa.com-18001.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.3.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

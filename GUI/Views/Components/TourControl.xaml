@@ -1,0 +1,131 @@
+﻿<UserControl x:Class="GUI.Views.Components.TourControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.Views.Components"
+             mc:Ignorable="d"
+             Width="380"
+             Height="200"
+             Background="Transparent"
+             Margin="0 0 25 20">
+    <Border
+
+        Background="White"
+        CornerRadius="10"
+        BorderThickness="0.3"
+        BorderBrush="White">
+
+        <Border.Effect>
+            <DropShadowEffect
+                Color="Gray"
+                BlurRadius="5"
+                Opacity=".5"
+                ShadowDepth="2" />
+        </Border.Effect>
+
+        <Grid>
+           <Grid.ColumnDefinitions>
+               <ColumnDefinition Width="1.2*"/>
+               <ColumnDefinition Width="1*"/>
+           </Grid.ColumnDefinitions>
+
+           <!--Tour Image-->
+           <Border 
+                 Grid.Column="0"
+                 CornerRadius="10"
+                 Name="BorderImg">
+                 <Border.Background>
+                        <ImageBrush
+                            ImageSource="../../Assets/image/img-paris.jpg"
+                            Stretch="UniformToFill"/>
+                 </Border.Background>
+           </Border>
+
+
+           <!--Tour Info-->
+           <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                      <RowDefinition Height="1*"   />
+                      <RowDefinition Height="1.5*" />
+                      <RowDefinition Height="3.6*" />
+                      <RowDefinition Height="1*"   />
+                      <RowDefinition Height="1*"   />
+                      <RowDefinition Height="1.5*" />
+                </Grid.RowDefinitions>
+
+                <!--Tour Status-->
+                <Image
+                     Source="../../Assets/Icons/icon-close.png"
+                     HorizontalAlignment="Right"
+                     Margin="0 2 5 0" />
+
+                <!--Tour Name-->
+                <Label
+                     Grid.Row="1"
+                     Name="LbName"
+                     Content="Dalat"
+                     FontFamily="Poppins"
+                     FontWeight="Bold"
+                     FontSize="22"
+                     Foreground="Black"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"/>
+
+                <!--Tour Description-->
+                <Label
+                     Grid.Row="2"
+                     FontFamily="Poppins"
+                     FontSize="12"
+                     Foreground="Black"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left">
+                    <TextBlock
+                          Name="TbDescription"
+                          Text="Dalat is a city in the central Vietnam. It's a beautiful place where you can take a rest with a peaceful atmosphere, you can enjoy it"
+                          TextWrapping="WrapWithOverflow"
+                          TextTrimming="CharacterEllipsis" />
+                </Label>
+
+                <!--Tour Price-->
+                <WrapPanel Grid.Row="3">
+                     <Image Source="../../Assets/Icons/icon-close.png" Margin="10,0,0,0"/>
+                     <Label
+                           Name="LbPrice"
+                           FontFamily="Poppins"
+                           FontSize="12"
+                           Foreground="#FF4C07"
+                           VerticalAlignment="Top"
+                           HorizontalAlignment="Left"
+                           Content="12.000.000 vnd"
+                           Margin="10,0,0,0"/>
+                </WrapPanel>
+
+                <!--Tour Visits-->
+                <WrapPanel Grid.Row="4">
+                     <Image Source="../../Assets/Icons/icon-close.png" Margin="10,0,0,0"/>
+                     <Label
+                           Name="LbVisit"
+                           FontFamily="Poppins"
+                           FontSize="12"
+                           Foreground="#5500A1"
+                           VerticalAlignment="Top"
+                           HorizontalAlignment="Left"
+                           Content="Visit: 6 Locations" Margin="10,0,0,0"/>
+                </WrapPanel>
+
+                <!--Tour Rating-->
+                <Label
+                       Grid.Row="5"
+                       Name="LbRating"
+                       Content="4.0 *"
+                       FontFamily="Poppins"
+                       FontSize="16"
+                       Foreground="#EFD700"
+                       VerticalAlignment="Bottom"
+                       HorizontalAlignment="Left" Width="33" Margin="5,0,0,5" Height="25"/>
+           </Grid>
+        </Grid>
+
+    </Border>
+</UserControl>

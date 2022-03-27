@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B13C180-E7B9-4D6C-AC1B-79E388DE376B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD0FFFA1-6E4E-4B6B-85D9-C6902EB80C8B} = {0B13C180-E7B9-4D6C-AC1B-79E388DE376B}
+	EndGlobalSection
+EndGlobal
